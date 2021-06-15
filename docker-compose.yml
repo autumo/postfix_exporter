@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  content:
+    build:
+      context: ./
+    image: autumon/kumina-postfix_exporter:b050cdff024376d8d2c59b56e0085f3a6ea305f6
